@@ -1,3 +1,5 @@
+### First put api folder on the htdocs folder
+
 #### General Functionality
 
 ######  1. The system will allow users to sign up as teachers or students
