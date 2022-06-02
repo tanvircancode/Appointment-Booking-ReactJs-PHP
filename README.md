@@ -1,3 +1,9 @@
+##General Functionality
+
+The system will allow users to sign up as teachers or students
+The system will only allow access to logged-in users.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
