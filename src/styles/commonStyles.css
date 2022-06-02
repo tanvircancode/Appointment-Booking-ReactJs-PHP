@@ -1,0 +1,444 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.logregheader {
+  color: white;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.adminHome {
+  position: absolute;
+  left: 6%;
+  top: 14%;
+  padding: 8px;
+  background: cornsilk;
+  font-weight: 700;
+}
+.editHome {
+  margin-left: 15px;
+  padding: 4px;
+  background: #2fc1b2;
+  border: none;
+  color: #fff;
+}
+.editHome:hover {
+  text-decoration: none;
+  color: #red;
+}
+.editHome:focus {
+  color: #red;
+
+  text-decoration: none;
+}
+.editBack {
+  margin-left: 20px;
+  padding: 4px;
+  background: #2fc1b2;
+  border: none;
+  color: #fff;
+}
+.editBack:hover {
+  text-decoration: none;
+  color: #red;
+}
+.editBack:focus {
+  color: #red;
+
+  text-decoration: none;
+}
+.tbl {
+  position: relative;
+  width: 100%;
+}
+.cardBody {
+  height: 10em;
+  width: 30em;
+  position: relative;
+  margin: 0 auto;
+}
+.formSubmit {
+  margin-top: 30px;
+  position: absolute;
+  width: 80%;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.adminButton {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.studentButton {
+  position: absolute;
+  right: 40px;
+  top: 12px;
+}
+.adminButtonTwo{
+  position: absolute;
+  right: 42px;
+  top: px;
+}
+.studentTable {
+  margin-top: 7%;
+}
+.studentLogout {
+  margin-left: 10px;
+}
+.buttonHourSat {
+  display: grid;
+  width: 10px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 27%;
+}
+.buttonHourSun {
+  display: grid;
+  width: 10px;
+  margin-left: 36%;
+  position: absolute;
+  top: 112%;
+}
+.buttonHourMon {
+  display: grid;
+  width: 10px;
+  margin-left: 45%;
+  position: absolute;
+  top: 112%;
+}
+.buttonHourTues {
+  display: grid;
+  width: 10px;
+  margin-left: 55%;
+  position: absolute;
+  top: 112%;
+}
+.buttonHourWed {
+  display: grid;
+  width: 10px;
+  margin-left: 68%;
+  position: absolute;
+  top: 112%;
+}
+.buttonHourThurs {
+  display: grid;
+  width: 10px;
+  margin-left: 80%;
+  position: absolute;
+  top: 112%;
+}
+.buttonHourFri {
+  display: grid;
+  width: 10px;
+  right: 7%;
+  position: absolute;
+  top: 112%;
+}
+.studentAllAppoint {
+  position: absolute;
+  margin-left: 50%;
+  width: 12%;
+  margin-top: 2%;
+  height: 39px;
+  margin-bottom: 67%;
+}
+.TeacherAllAppoint {
+  position: absolute;
+  margin-left: 57%;
+  width: 12%;
+  margin-top: 1%;
+  height: 39px;
+  margin-bottom: 67%;
+}
+.TeacherTodayAppointment {
+  position: absolute;
+  left: 27%;
+  margin-top: 1%;
+}
+.teacherWeeklyHrs {
+  position: absolute;
+  margin-left: 42%;
+  width: 12%;
+  margin-top: 1%;
+  height: 39px;
+  margin-bottom: 67%;
+}
+.approve-btn {
+  background: #27ae60;
+  color: white;
+  border: 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.reject-btn {
+  background: #db0f19;
+  color: white;
+  border: 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.pending-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.WeekFromHour {
+  margin-left: 26px;
+}
+.homeFromHour {
+  margin-left: 22px;
+}
+.insertHour {
+  padding: 6px;
+  border: none;
+  background: cornsilk;
+  color: brown;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10%;
+}
+.hourAdd {
+  margin-bottom: 20px;
+}
+.hourEdit {
+  margin-bottom: 20px;
+  border: none;
+  background: transparent;
+}
+.hourDelete {
+  margin-bottom: 20px;
+}
+.updateProfile {
+  padding-left: 14px;
+  position: absolute;
+  right: 0;
+  margin-top: 18px;
+}
+.recordFound {
+  background: #def1d8;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  margin: 40px;
+  text-align: center;
+}
+.adminrecordFound{
+  background: #def1d8;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 38%;
+  text-align: center;
+}
+.todayRecordFound {
+  background: #def1d8;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  margin: 120px;
+  text-align: center;
+}
+.todayAppointment {
+  position: absolute;
+  left: 34%;
+  margin-top: 2%;
+}
+.addTeacher {
+  padding: 15px;
+  margin-right: 40px;
+  background: green;
+  font-size: 15px;
+  font-weight: 700;
+  color: #f1f1f1;
+  border: none;
+}
+.adminCard {
+  margin-top: 30px;
+  height: 28em;
+  background: #3f0f0f;
+  position: relative;
+  width: 50em;
+  margin-left: 42%;
+}
+
+.addStudent {
+  padding: 15px;
+  margin-right: 40px;
+  background: #ccff7d;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+
+  color: darkblue;
+}
+.regRequest {
+  padding: 15px;
+  margin-right: 40px;
+  background: #ef191f;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+
+  color: #f1f1f1;
+}
+
+.edit {
+  margin-left: 20px;
+}
+.delete {
+  margin-left: 30px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+td,
+th {
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+.inputLabel {
+  font-size: large;
+  font-weight: 500;
+  color: aliceblue;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.panel-view {
+  background: url("../assets/img/panel-view.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*cover*/
+#cover {
+  background: url("../assets/img/img11.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 460px;
+  /*margin-top: 25px;*/
+}
+
+#cover .head {
+  margin-top: 33px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Inconsolata";
+  color: #fff;
+}
+#cover .lead {
+  margin-bottom: 20px;
+  color: #fff;
+}
+#cover .btn-default {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 45px;
+  transition: 1s;
+}
+.btn-default:hover {
+  background: black;
+  color: white;
+}
+
+#footer {
+  padding: 60px 0px 0px 0px;
+  background: #0b0220;
+  color: white;
+  margin: 0%;
+}
+#footer .col-md-4 {
+  padding: 0px 20px;
+}
+
+#footer .fas {
+  color: #a377fe;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+#footer .fa-check {
+  color: white;
+  font-size: 22px;
+  margin-right: 12px;
+}
+#footer .head {
+  font-family: "Inconsolata";
+  padding-bottom: 18px;
+  font-weight: bold;
+}
+#footer .para {
+  padding-top: 10px;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+#footer .btn-default {
+  border-color: white;
+  background: transparent;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+#footer .btn-default:hover {
+  border-color: white;
+  background: white;
+  color: black;
+  margin-top: 18px;
+}
+#footer .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+#footer hr {
+  background-color: white;
+}
+#footer .credit {
+  margin-bottom: 0%;
+  padding: 0px 6px;
+  padding-bottom: 15px;
+}
+
+.record ul li .list-group-item {
+  background: #000;
+  color: white;
+}
