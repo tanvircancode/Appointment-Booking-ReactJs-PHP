@@ -31,5 +31,7 @@
 ###### 6 .The system will allow students to make an appointment request by providing teachers, departments etc. 
 ###### 7 .The student can see their appointment history and upcoming schedule for the day/week.
 
+#### OOP's concepts have been used in this project
+
 
 
